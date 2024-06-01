@@ -1,5 +1,51 @@
+# Ignore .NET Core build results
 bin/
 obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+
+# Ignore Rider project files
+.idea/
+.idea_modules/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore ASP.NET temporary files
+.vscode/
+.vscode-test/
+
+# Ignore Rider workspace settings
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+
+# Ignore JetBrains specific files
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+.idea/**/shelf/
+.idea/**/shelf/
+
+# Ignore Rider's caches and logs
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+.idea/**/shelf/
+.idea/**/shelf/
+.idea/**/dataSources/
+.idea/**/dataSources.local.xml
+.idea/**/dataSources.names.xml
+.idea/**/jdbc_drivers/
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/dataSources/**
+
+# Ignore ReSharper files
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Ignore log files
+*.log
+
+# Ignore config files
+appsettings*.json
